@@ -2,6 +2,8 @@
 
 This repository contains a simple but effective Palindrome Checker application built with vanilla JavaScript. It allows users to input text and check if it's a palindrome, meaning the text reads the same forward and backward, ignoring punctuation, case, and spacing.
 
+![1715046239222](image/README/1715046239222.png)
+
 ## Features
 
 - **Clean and Simple UI:** Easy to use web interface.
