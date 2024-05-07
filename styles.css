@@ -1,0 +1,71 @@
+:root {
+  --hide-border: transparent;
+  --color1: #596e79;
+  --color2: #f0ece2;
+  --color3: ##c7b198;
+  --color4: #dfd3c3;
+  --twenty-pixels: 20px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  text-align: center;
+  padding: 10vh 10vw;
+  background-color: var(--color2);
+  color: var(--color3);
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: var(--twenty-pixels);
+}
+
+#form {
+  color: var(--color3);
+  padding: 30px 60px;
+  border: var(--color1) solid 2px;
+  border-radius: var(--twenty-pixels);
+  background-color: var(--color2);
+}
+
+#text-input {
+  height: 3em;
+  width: 20em;
+  margin: var(--twenty-pixels);
+  border-bottom: 4px solid var(--color3);
+  border-top: var(--hide-border);
+  border-left: var(--hide-border);
+  border-right: var(--hide-border);
+  border-radius: var(--twenty-pixels);
+}
+
+button {
+  padding: 5px 20px;
+  background-color: var(--color1);
+  color: var(--color3);
+  font-weight: bold;
+  font-size: var(--twenty-pixels);
+  border-radius: var(--twenty-pixels);
+}
+
+.hide {
+  display: none;
+}
+
+#footnote {
+  margin-top: var(--twenty-pixels);
+  background-color: var(--color4);
+  border-radius: 30px;
+  padding: var(--twenty-pixels);
+  color: var(--color3);
+  font-size: var(--twenty-pixels);
+}
